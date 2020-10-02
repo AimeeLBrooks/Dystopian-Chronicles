@@ -1,0 +1,571 @@
+/*UNIVERSAL VALUES
+
+@media screen and=adapts to devices #e88e51 - HOVER COLOUR**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+@import url(https://fonts.googleapis.com/css2?family=Peddana&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=David+Libre&family=Peddana&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+/*PRIMARY VALUES*/
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+b,
+strong {
+    color: #e88e51;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    color: #e88e51;
+}
+
+
+/*--------------------------------------------------------------
+Text
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+img {
+    filter: grayscale(20%);
+}
+
+
+/* social links */
+
+.discord-image {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    margin-top: 100%;
+    margin-left: 95%;
+    margin-bottom: 0.5%;
+    bottom: 0;
+}
+
+
+/* Navigation Bar */
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+}
+
+.site-navigation {
+    background-color: #1f1f1f;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    /* ^ keeps the bar above all other divs  */
+}
+
+.navigtitle {
+    font-family: Quicksand;
+    color: white;
+    font-size: 1.05em;
+    display: inline-block;
+    padding: 10px 16px;
+    padding-left: 90px;
+}
+
+.navig {
+    float: right;
+}
+
+.navig a {
+    font-family: Quicksand;
+    font-size: 1.05em;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navig a:hover {
+    font-family: Quicksand;
+    font-size: 1.05em;
+    color: #e88e51;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 8em;
+}
+
+.site-title {
+    margin-top: -1em;
+    margin-bottom: 3em;
+}
+
+
+/* Introduction Bar */
+
+.index {
+    background-image: url("wc5.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.dystopia {
+    background-image: url("dystopia.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.ntr {
+    background-image: url("website.png");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.introduction {
+    background-image: url("hog.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.introduction2 {
+    background-image: url("wc3.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.introduction3 {
+    background-image: url("wc2.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.introduction4 {
+    background-image: url("wall.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.introduction5 {
+    background-image: url("wc.jpg");
+    /* Make full screen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.youtubebox {
+    padding-left: 480px;
+    padding-top: 150px;
+}
+
+.maintitle,
+.secondarypar {
+    position: relative;
+    font-family: 'David Libre', serif;
+    font-size: 60px;
+    top: 20%;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 10px peru, 1px 1px 10px #ccc;
+}
+
+.intropar,
+.secondarypar {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 40%;
+    top: 25%;
+    font-family: 'David Libre', serif;
+    font-size: 16px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.intropar2 {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    left: 35%;
+    top: 25%;
+    font-family: 'David Libre', serif;
+    font-size: 16px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.columnpar {
+    position: relative;
+    font-family: 'David Libre', serif;
+    font-size: 16px;
+    text-align: justify;
+    top: 25%;
+    left: 25%;
+    width: 300px;
+    height: 200px;
+    background-image: url("wc2.jpg");
+    color: whitesmoke;
+}
+
+.columnparoverlap {
+    position: absolute;
+    font-family: 'David Libre', serif;
+    font-size: 16px;
+    text-align: justify;
+    top: 135%;
+    left: 75%;
+    width: 300px;
+    height: 200px;
+    background-image: url("wc3.jpg");
+    color: whitesmoke;
+    opacity: 0.4;
+}
+
+
+/* Bottoms section */
+
+.bottoms {
+    padding: 2em;
+    background: #474747;
+    color: white;
+    opacity: 0.9;
+}
+
+.bottoms:last-of-type {
+    background: #171717;
+}
+
+
+/* Two containers */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    background-color: black;
+}
+
+.columntext {
+    background-image: url("w2.jpg");
+    font-family: fantasy;
+    font-size: 30px;
+    float: right;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+    height: 506px;
+}
+
+
+/* Clears float */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* responses boxes */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* revise some flex flex flex! */
+
+
+/* test page */
+
+.container {
+    display: flex;
+    max-height: 100%;
+    flex-direction: row;
+}
+
+.box {
+    color: white;
+    font-size: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+    height: 100px;
+}
+
+
+/* Colours for each box */
+
+.box1 {
+    background: #F2D8A7;
+}
+
+.box2 {
+    background: #D9A25F;
+}
+
+.box3 {
+    background: #A65221;
+}
+
+.box4 {
+    background: #8C3211;
+}
+
+.box5 {
+    background: #0D0C0C;
+}
+
+.box6 {
+    background: #00010D;
+}
+
+.box7 {
+    background: #D9AA1E;
+}
+
+.box8 {
+    background: #F2C029;
+}
+
+.box9 {
+    background: #BF8211;
+}
+
+.box10 {
+    background: #594A38;
+}
+
+
+/* Colours for each box */
+
+.box11 {
+    background: #408C2B;
+}
+
+.box12 {
+    background: #357324;
+}
+
+.box13 {
+    background: #A6774E;
+}
+
+.box14 {
+    background: #8C311C;
+}
+
+.box15 {
+    background: #592316;
+}
+
+.box16 {
+    background: #F28729;
+}
+
+.box17 {
+    background: #F26B1D;
+}
+
+.box18 {
+    background: #26201D;
+}
+
+.box19 {
+    background: #D94423;
+}
+
+.box20 {
+    background: #A62121;
+}
+
+
+/*GRID FOR GRIDS PAGE*/
+
+.rowpage {
+    display: flex;
+    padding: 0 4px;
+    flex: 1;
+}
+
+
+/*GRID2*/
+
+.rowpage2 {
+    display: flex;
+    padding: 0 4px;
+    flex: 1;
+}
+
+
+/* FLEX GRIDS WITH IMAGE! */
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    flex: 33.33%;
+}
+
+
+/* FLEX GRIDS WITH IMAGE AND WRAP! */
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    /* THINK TUMBLR THEME WRAPS */
+    flex-grow: 4;
+}
+
+.column3 {
+    flex: 20%;
+}
+
+
+/* Footer section */
+
+.footer {
+    padding: 2em;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #e88e51;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+Works if there's no grid support
+--------------------------------------------------------------*/
+
+@supports not (display: grid) {
+    .grid {
+        max-width: 50em;
+        margin: 0 auto;
+    }
+}
+
+
+/*--------------------------------------------------------------
+CSS grid layout support for browsers (not mine)
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 600px) {
+    /* Layout with CSS Grid */
+    @supports (display: grid) {
+        /* Four-column layout. Two center columns have a total max width of 50em: */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+        }
+        /* Use automatic grid placement + span to let each item span two columns:*/
+        .bottoms,
+        .footer aside {
+            grid-column: span 2;
+        }
+    }
+}
