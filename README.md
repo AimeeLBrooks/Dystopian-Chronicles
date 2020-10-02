@@ -5,5 +5,5 @@ It is a Sci-Fi Adventure Game.
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)  
 
-## Screenshots
+### Theme
 ![intro](https://github.com/pri-k/Dystopian-Chronicles/blob/main/intro.jpg)
